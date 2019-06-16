@@ -84,7 +84,7 @@ def download(repo_url):
 
 
 def main():
-    # disbale CTRL+Z
+    # disable CTRL+Z
     signal.signal(signal.SIGTSTP, signal.SIG_IGN)
 
     parser = argparse.ArgumentParser(description="Download directories/folders from GitHub")
